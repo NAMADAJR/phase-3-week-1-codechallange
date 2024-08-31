@@ -10,5 +10,12 @@ def reverse_string(text):
     print (text[::-1])
 reverse_string("maN")
 
-
+def count_vowels (text):
+    vowels = "aeiou"
+    count = 0
+    for char in text.lower():
+       if char in vowels:
+           count += 1
+    print(f"Number of vowels: {count}")
+count_vowels("Mangoes")
 
