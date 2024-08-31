@@ -1,3 +1,7 @@
 def add_number (num1 , num2):
     print (num1 + num2)
-add_number(5 , 4)
+add_number(5 , 5)
+
+def is_even (number):
+    print (number % 2 == 0) 
+is_even(2)
